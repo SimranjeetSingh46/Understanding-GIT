@@ -1,0 +1,74 @@
+
+
+Create a New Repository  via command line 
+1.	git init
+2.	git add 
+3.	git commit -m "first commit"
+4.	git remote
+5.	git remote add origin Link for the Repository  
+6.	git push -u origin master
+
+push an existing Repository  via command line
+1.	git init
+2.	git add .
+3.	git commit -m "first commit"
+4.	git remote
+5.	git remote add origin Link for the Repository  
+6.	git push 
+
+Basic Commands
+
+$ git init                                          	// Initialize Local Git Repository 
+
+$ git add  <file>	                                    // Add Files to Index
+														Example 
+														$ git add  index.html // one file added 
+														$ git add  *.html // add  file with extension .html
+														$ git add . // add all the files
+														
+$ git rm –cached <file>									//remove the file 
+
+$ git status                                   			// Check status of the working tree
+
+$ git commit                                			// Commit Changes in Index
+														Hard way 
+														We enter in $ git commit we reach in git editor. 
+														Here we can enter the commit message. 
+														Press “I” to Insert
+														To get out of the git editor we press ESC then type this command:wq
+														
+$ git commit -m ‘our comment’                           // Commit Changes in Index
+														Easy Way
+														
+$ git push                                				// Push to Remote Repository
+
+$ git pull                                				// Pull latest from Remote Repository
+
+$ git clone                                				// Clone Repository Into a New Directory 
+
+$ git --version                                			// Gives the version of Git
+
+$ touch <file>											// Creates a file in that folder example $ touch index.html
+
+$ git config –global user.name  ‘___’           
+                    	
+$ git config –global user.email  ‘___’     
+                         	
+$ touch .gitignore                                		// Files we do not want to include in our Repository  
+														An example we have a project and we do not want include in our Repository, for example, 
+														we have a log file name log.txt and we do not want to include in our Repository  
+														We just add (or just write) log.txt in .gitignore 
+														We can do the same to the directory 
+														
+$ git branch anyname 									Creates a new branch for your use. So that we do not disturb the Master branch.
+														Switch from Master branch to newly created branch 
+														$ git checkout your_branch_name
+														Merge your_branch_name to Master branch 
+														$ git merge your_branch_name
+														We enter git editor 
+														Press “I” to Insert
+														To get out of the git editor we press ESC then type this command:wq
+														
+clear 													// Clear the screen
+
+$ git merge your_branch_name							This will merge your branch to 

@@ -1,0 +1,20 @@
+GIT
+What is GIT?p
+1.	Distributed version control
+2.	Coordinates work between multiple developers
+3.	Who made what changes and when 
+4.	Revert back at any time
+5.	Local and remote repos 
+
+Concepts of Git 
+1.	Keeps track of code history 
+2.	Take “snapshots” of your files 
+3.	You decide when to take a snapshot by making a “commit”
+4.	You can visit any snapshot at any time
+5.	You can stage files before committing 
+
+Installing GIT
+•	For Windows https://git-scm.com/download/win
+
+Branches in GIT
+•	Branching means you diverge from the main line of development and continue to do work without messing with that main line.
